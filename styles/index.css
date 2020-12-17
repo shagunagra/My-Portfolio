@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Poppins&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+	font-family: 'Lato', sans-serif;
+}
+.offset:before{
+	display: block;
+	content: "";
+	height: 6rem;
+
+}
+.navbar{
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 0.2em;
+	background: rgba(0,0,0,0.6) !important;
+	padding: 20px 0;
+}
+.navbar-dark .navbar-nav .nav-link{
+	color: #fff;
+	padding-left: 20px;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #1ebba3;
+}
+.heading-content{
+	position: absolute;
+	top: 40%;
+	width: 100%;
+	max-width: 100%;	
+}
+.heading-content h5{
+	font-size: 3em;
+	font-weight: 300;
+	color: white;
+	font-family: monospace;
+}
+.heading-content h1{
+	font-size: 3.5em;
+	font-weight: bolder;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+.heading-content p{
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: lighter;
+	color: #ccc;
+	word-spacing: 5px;
+	letter-spacing: 2px;
+}
+#about .btn{
+	border:0;
+	width: 40%;
+	padding: 15px 22px;
+	background: #000;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+#about .btn a{
+	color: white;
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#about .btn:hover{
+	border: 2px solid #1ebba3;
+}
+.jumbotron{
+	height: 700px;
+}
+#projects button{
+	border:0;
+	width: 40%;
+	padding: 15px 22px;
+	background: #000;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+#projects button a{
+	color: white;
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#projects button:hover{
+	border: 2px solid #1ebba3;
+}
+footer hd{
+	color: white;
+}
+.c1:hover{
+	transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-webkit-transform: scale(1.1);
+}
+.c1{
+	transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+}
+@media screen and (max-width: 479px){
+	.heading-content h5{
+	font-size: 2em;
+}
+.heading-content h1{
+	font-size: 2.3em;
+}
+.heading-content p{
+	font-size: 0.8em;
+}
+}
